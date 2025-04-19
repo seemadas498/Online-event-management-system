@@ -21,23 +21,27 @@ h3{
     
 }
 
+/* login form */
+
 .input-group-text{
-    background-color: var(--redOrange);
+    background-color: #A7BF00;
 }
+
 .btnColor{
-    background-color: var(--redOrange);
+    background-color: #A7BF00;
     color: var(--white);
-}
-.login{
-    background: linear-gradient(to bottom top,#FFF5F5,#FFDEDE);
 }
 
 .fromBg{
-    background: linear-gradient(to bottom right, #FFE1E1,#FFC8C8,#FF8080);
+   background-color: #F9FFD1;
 }
-.term{
-    font-size: 14px !important;
-}
+
+/* forgot and otp */
 .sFont{
     font-size: 15px !important;
+}
+.otp-input input{
+    width: 15%;
+    height: 60px;
+    text-align: center; 
 }
